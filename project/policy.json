@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "commands": {
+    "test": null,
+    "lint": null,
+    "typecheck": null,
+    "build": null
+  },
+  "defaultApprovalMode": "checkpoints",
+  "requiredGates": [
+    "scope",
+    "beforeExecute"
+  ],
+  "quick": {
+    "maxFiles": 3,
+    "timeboxMinutes": 3,
+    "forbidden": [
+      "schema",
+      "migration",
+      "api-contract",
+      "security",
+      "dependency",
+      "architecture"
+    ]
+  },
+  "execution": {
+    "maxParallelWorkers": 3,
+    "maxAttempts": 3,
+    "defaultTimeoutMinutes": 45,
+    "autonomousUntil": "review"
+  },
+  "lease": {
+    "backend": "local",
+    "sharedDirectory": null,
+    "defaultTtlSeconds": 1800,
+    "waitSeconds": 600
+  },
+  "staleAfterDays": 7,
+  "securitySensitivePaths": [],
+  "git": {
+    "autoCommit": true
+  },
+  "rules": [
+    {
+      "id": "ship-default-checkout-v1",
+      "when": "ship.after:complete",
+      "effect": "axon-sync-default-checkout",
+      "mode": "auto",
+      "reason": "Return the owning checkout to its configured default after handoff"
+    }
+  ],
+  "events": [],
+  "migrations": {
+    "ship-default-checkout-v1": true
+  }
+}

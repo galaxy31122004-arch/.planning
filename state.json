@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "revision": 0,
+  "project": {
+    "id": "do-an-tuan",
+    "name": "Do-an-Tuan",
+    "baseBranch": "main",
+    "controlBranch": null
+  },
+  "activeTaskId": null,
+  "focusContexts": {},
+  "tasks": [],
+  "createdAt": "2026-11-01T02:32:29Z",
+  "updatedAt": "2026-11-01T02:32:29Z"
+}
