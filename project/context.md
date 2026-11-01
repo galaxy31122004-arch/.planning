@@ -11,3 +11,6 @@ Sinh viên: Phạm Thanh Tuấn, Nguyễn Quốc Sinh; lớp Kỹ thuật điệ
 
 ## Constraints
 Giữ PIC là bộ xử lý đo và hiển thị. Không lưu bù khi mất mạng ở bản đầu. Chưa chọn dịch vụ/bản triển khai cloud, giao thức mạng, chu kỳ gửi hoặc sơ đồ chân. Đối chiếu tính năng nền tảng và module thực tế trước khi triển khai. Tài liệu gốc giữ nguyên; bản cập nhật: `TÓM TẮT ĐỀ TÀI ĐỒ ÁN 2 - IoT OLED.docx`.
+
+## Bản triển khai 2026-11-01
+Đã có firmware PIC/ESP32, giao thức CRC-8 UART, gửi HTTPS ThingsBoard mỗi 10 giây, dashboard native 11 widget, BOM 48 chi tiết và sơ đồ nối dây. Chi tiết tại README và docs/verification.md. ESP32 live/demo build qua; PIC cần XC8 và mạch thật; dashboard cần tenant thật. Người dùng đang cân nhắc TXS0108E thay bộ BSS138/AHCT125/chia áp; mới giải thích và ghi phương án thay thế, chưa đổi BOM mặc định.
