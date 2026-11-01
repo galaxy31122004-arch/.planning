@@ -1,0 +1,101 @@
+{
+  "thingsboard-http": {
+    "tasks": [],
+    "file": null,
+    "source": "research-log",
+    "domain": "thingsboard-http",
+    "researchedAt": "2026-11-01",
+    "validUntil": "2027-02-01",
+    "confidence": "HIGH"
+  },
+  "hardware": {
+    "tasks": [],
+    "file": null,
+    "source": "research-log",
+    "domain": "hardware",
+    "researchedAt": "2026-11-01",
+    "validUntil": "2027-11-01",
+    "confidence": "HIGH"
+  },
+  "thingsboard-dashboard": {
+    "tasks": [],
+    "file": null,
+    "source": "research-log",
+    "domain": "thingsboard-dashboard",
+    "researchedAt": "2026-11-01",
+    "validUntil": "2027-02-01",
+    "confidence": "HIGH"
+  },
+  "oled": {
+    "tasks": [],
+    "file": null,
+    "source": "research-log",
+    "domain": "oled",
+    "researchedAt": "2026-11-01",
+    "validUntil": "2027-02-01",
+    "confidence": "HIGH"
+  },
+  "txs0108e": {
+    "tasks": [],
+    "file": null,
+    "source": "research-log",
+    "domain": "txs0108e",
+    "researchedAt": "2026-11-01",
+    "validUntil": "2027-11-01",
+    "confidence": "HIGH"
+  },
+  "thingsboard-local": {
+    "tasks": [],
+    "file": null,
+    "source": "research-log",
+    "domain": "thingsboard-local",
+    "researchedAt": "2026-11-01",
+    "validUntil": "2026-12-01",
+    "confidence": "HIGH"
+  },
+  "thingsboard-alarm": {
+    "tasks": [],
+    "file": null,
+    "source": "research-log",
+    "domain": "thingsboard-alarm",
+    "researchedAt": "2026-11-01",
+    "validUntil": "2026-12-01",
+    "confidence": "HIGH"
+  },
+  "esp32c3": {
+    "tasks": [],
+    "file": null,
+    "source": "research-log",
+    "domain": "esp32c3",
+    "researchedAt": "2026-11-01",
+    "validUntil": "2027-02-01",
+    "confidence": "HIGH"
+  },
+  "bom-prices": {
+    "tasks": [],
+    "file": null,
+    "source": "research-log",
+    "domain": "bom-prices",
+    "researchedAt": "2026-11-01",
+    "validUntil": "2026-11-08",
+    "confidence": "HIGH"
+  },
+  "at89s52-migration": {
+    "tasks": [],
+    "file": null,
+    "source": "research-log",
+    "domain": "at89s52-migration",
+    "researchedAt": "2026-11-01",
+    "validUntil": "2026-11-08",
+    "confidence": "HIGH"
+  },
+  "at89s52-toolchain": {
+    "tasks": [],
+    "file": null,
+    "source": "research-log",
+    "domain": "at89s52-toolchain",
+    "researchedAt": "2026-11-01",
+    "validUntil": "2026-12-01",
+    "confidence": "HIGH"
+  }
+}
